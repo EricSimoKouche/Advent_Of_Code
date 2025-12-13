@@ -1,4 +1,4 @@
-def function1(filename: str) -> int:
+def count_invalid_ID1(filename: str) -> int:
 
     answer = 0
 
@@ -28,7 +28,7 @@ def function1(filename: str) -> int:
 
     return answer
 
-def function2 (filename : str) -> int :
+def count_invalid_ID2 (filename : str) -> int :
 
     answer = 0
 
@@ -61,5 +61,5 @@ def is_valid(s : str) -> bool :
     return False
 
 if __name__ == "__main__" :
-    result = function2('test.txt')
+    result = count_invalid_ID2('test.txt')
     print(result)
